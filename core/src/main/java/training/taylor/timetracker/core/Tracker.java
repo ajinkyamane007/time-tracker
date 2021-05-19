@@ -7,7 +7,8 @@ import training.taylor.timetracker.core.dao.TimeEntry;
 import java.util.List;
 
 @Component
-public class Tracker {
+public class Tracker 
+{
     @Autowired
     private List<TimeEntry> entries;
 
@@ -28,7 +29,6 @@ public class Tracker {
 
     public TimeEntry get(int index) {
         try {
-
         } catch (Exception e) {
 
         }
